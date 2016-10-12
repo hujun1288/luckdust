@@ -31,7 +31,7 @@ public class RotaryHasuoNewView extends SurfaceView implements Callback, Runnabl
     /**
      * 与SurfaceHolder绑定的Canvas
      */
-    private Canvas mCanvas; 
+    private Canvas mCanvas;
     /**
      * 用于绘制的线程
      */
