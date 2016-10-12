@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+    <!--android:background="@color/white_abs"-->
+        <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+            <ImageView  android:id="@+id/freash_back_bottom"
+                android:scaleType="fitXY"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        <ImageView android:id="@+id/freash_back_top"
+            android:visibility="visible"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/freash_back_bottom"
+            />
+    </RelativeLayout>
+  <!--  <TextView
+        android:layout_gravity="center|bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textColor="#b12528"/>
+<TextView   android:id="@+id/app_version"
+    android:visibility="gone"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:text="@string/splash_version"
+    android:textColor="#fff"
+    android:background="#b12528"
+    android:layout_marginBottom="24dp"/>-->
+</LinearLayout>

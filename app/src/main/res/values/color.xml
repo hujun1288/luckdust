@@ -1,0 +1,57 @@
+<resources>
+    <color name="white_login">#fff5f5f5</color>
+    <color name="white_menu">#f0f0f0f0</color>
+    <color name="white_abs">#ffffffff</color>
+    <color name="red">#ebe7080b</color>
+    <color name="black">#eb000000</color>
+    <color name="gray">#ee333333</color>
+    <color name="guid_backcolor">#48a9fa</color>
+    <color name="littlegray">#ffafafaf</color>
+    <color name="transparent_gray">#bf333333</color>
+    <color name="point_selected">#7b000000</color>  <!--9e8c8c8c-->
+    <color name="point_unselect">#3c000000</color> <!--e6e0e0e0-->
+    <color name="green_login">#ff7ad713</color>
+    <color name="green_login_pressed">#ff346911</color>
+    <!--新加的-->
+    <color name="menu_title_back">#f8b62e</color>
+    <color name="buy_page01">#fff4f4f4</color>
+    <color name="half_transparent_white">#d2ffffff</color>
+    <color name="half_transparent_white_pressed">#d2dbdbdb</color>
+    <color name="yellow_btn_pressed">#e4a40d</color>
+    <color name="yellow_text_pressed">#ffa27a04</color>
+    <color name="green_btn">#4cc42f</color>
+    <color name="green_btn_pressed">#3ab21d</color>
+    <color name="red_btn">#ff571c</color>
+    <color name="red_btn_pressed">#ea480f</color>
+    <color name="black_textc">#646464</color>
+    <color name="add_sub_back">#d6d6d6</color>
+    <color name="add_sub_back_pressed">#e4e4e9</color>
+    <color name="horizontal_line_a">#ffb7b7b7</color>
+    <color name="read_agreement_grey">#656565</color>
+    <color name="clickable_time_tv_grey">#ffa2a2a2</color>
+    <color name="transparent_yellow">#a1f9b72e</color>
+    <color name="blue_green_text">#ff27daf9</color>
+    <color name="deep_red_text">#ffe04917</color>
+    <color name="view_color_my_dialog">#ffbababa</color>
+
+    <color name="title_text_color">#23aab7f4</color>
+    <color name="orange_text_color">#ff4729</color>
+    <color name="horizontal_view_deeper_back">#ffdddddd</color>
+    <color name="menu_message_title_back">#23a0ade8</color>
+    <color name="hintcolor">#c4898989</color>
+    <color name="menu_caidan_textColor">#f8333333</color>
+
+
+    <color name="home_tabhost_text">#646464</color>
+    <color name="home_tabhost_text_selected">#f8b62e</color>
+
+    <color name="pager_bg">#CA000000</color>
+    <color name="selected_bg">#44000000</color>
+    <color name="black_40">#282828</color>
+    <color name="common_primary">#f3f3f3</color>
+
+    <color name="text_40">#282828</color>
+    <color name="text_80">#505050</color>
+    <color name="text_120">#787878</color>
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/relative_all"
+    android:background="@color/menu_title_back"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<sharedClassOrView.FirstRun.ScrollLayout
+    android:id="@+id/scrollLayoutTest"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout android:id="@+id/guid_ll01"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"></LinearLayout>
+    <!--@drawable/guid_02-->
+    <LinearLayout android:id="@+id/guid_ll02"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"></LinearLayout>
+    <LinearLayout android:id="@+id/guid_ll03"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+        <Button android:id="@+id/access_app"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/white_stroke_btn_back"
+            android:text="@string/access_app"
+            android:textColor="@color/white_abs" />
+    </LinearLayout>
+    <!--<FrameLayout
+        android:background="#F00F"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </FrameLayout>
+
+    <LinearLayout
+        android:background="#FF00"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </LinearLayout>-->
+    </sharedClassOrView.FirstRun.ScrollLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/text_point_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:paddingBottom="12dp"
+        android:layout_marginBottom="@dimen/point_marbottom">
+    <!--下方小点的布局 代码中根据页面的个数动态添加-->
+    <LinearLayout android:id="@+id/point_ll"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/text_point_height"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+    </LinearLayout>
+    <!--当前页的小点-->
+    <TextView android:id="@+id/curPagePoint"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/text_point_height"
+        android:text="•"
+        android:textColor="@color/point_selected"
+        android:textSize="44dp"
+        android:gravity="center_vertical" />
+    </FrameLayout>
+    <LinearLayout android:id="@+id/skip_guid_ll"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:paddingTop="@dimen/abc_action_bar_content_inset_material"
+        android:paddingRight="@dimen/abc_action_bar_content_inset_material"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:id="@+id/skip_guid_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="\t\t跳过\t\t"
+            android:textColor="@color/white_abs"
+            android:textSize="16dp"
+            android:background="@drawable/little_gray_cirle_back"
+            android:padding="4dp"/>
+    </LinearLayout>
+</RelativeLayout>

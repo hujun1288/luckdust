@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LuckDust</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="access_app">进入应用</string>
+</resources>
